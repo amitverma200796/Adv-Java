@@ -1,0 +1,25 @@
+package pack1;
+
+public class Department {
+	private String ename;
+	private int rollno;
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public int getRollno() {
+		return rollno;
+	}
+	public Department(String ename, int rollno) {
+		super();
+		this.ename = ename;
+		this.rollno = rollno;
+	}
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	
+
+}

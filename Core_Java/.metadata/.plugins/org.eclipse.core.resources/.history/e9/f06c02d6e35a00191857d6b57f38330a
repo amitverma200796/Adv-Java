@@ -1,0 +1,20 @@
+package pack1;
+
+public class Employee {
+	private String ename;
+	private int rollno;
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public int getRollno() {
+		return rollno;
+	}
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	
+
+}
